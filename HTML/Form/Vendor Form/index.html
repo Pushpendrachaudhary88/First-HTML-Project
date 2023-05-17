@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Flipkart Vendor Form</h1>
+    <form  ation="#" method="post" name="form" id="form">
+        <div>
+             <label for="name">Name*</label><br>
+             <input type="text" name="name" id="name" placeholder="First Name"> <br>
+             <input type="text" name="name" id="name" placeholder="Sir Name">
+        </div>
+        <div>
+            <label for="dob">Date Of Birth*</label> <br>
+            <input type="date" name="dob" id="dob">
+        </div>
+        <div>
+            <label for="current location">Current Location</label> <br>
+            <textarea name="current-location" id="current location" cols="30" rows="10"> </textarea>
+
+        </div>
+        <div>
+            <label for="email">Email*</label><br>
+            <input type="email" name="emial" id="email" placeholder="Enter our Email" pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$">
+
+        </div>
+        <div>
+            <label for="Uplaod Aadhar Card">Upload Aadhar Card*</label><br>
+            <input type="file" name="upload Aadhar Card" id="Upload Aadhar Card" placeholder="file">
+        </div>
+        <div>
+            <label for="Pan card Member">Pan Card Member</label><br>
+            <input type="tel" pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}" name="Pen card Member" id="Pen card Member">
+
+        </div>
+        <div>
+            <label for="item to sells">Item to Sells</label><br>
+            <select name="topics" id="item to sells">
+                <option value="item to sells" disabled>Item to Sells</option>
+                <option value="cloths">Cloths</option>
+                <option value="Phone">Phone</option>
+                <option value="tv">TV</option>
+                <option value="Car">Car</option>
+            </select>
+        </div>
+        <div>
+            <label for="question">Are you in India ?</label><br>
+            <input type="radio"  name="question" value="question">YES
+            <input type="radio" name="question" value="question">NO
+        </div>
+        <div>
+            <label for="delivery">Location Open for delivery</label><br>
+            Delhi: <input type="checkbox" name="delivery">
+            Bangalore: <input type="checkbox" name="delivery">
+            Mumbai: <input type="checkbox" name="delivery">
+            Pune: <input type="checkbox" name="delivery">
+        </div>
+
+        <div>
+            <input type="Submit">
+            <input type="Reset">
+        </div>
+    
+    </form>
+
+    
+</body>
+</html>
