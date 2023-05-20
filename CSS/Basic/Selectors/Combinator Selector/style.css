@@ -1,0 +1,43 @@
+/* General selector(~)--> target the given tag that are sibling to the specific tag */
+/* eg.--> target all the  p tag which are general sibling of the span tag and come after span tag */
+/* 
+span~p{
+    color: red;
+
+} */
+
+/* 
+target all .para class element which are sibling of span tag */
+
+/* span~.para{
+    color: green;
+}
+span ~ .para{
+    color: aqua;
+}
+
+.title ~ .para{
+    color: yellow;
+} */
+
+/* 
+adjacent sibling (+)--> select only that sibling of a given tag which exactly after the given element and has same value */
+
+/* eg--> target the p that is adjacent  slibling of h1 tag */
+
+h1 + p {
+    color: red;
+}
+
+/* child selector(>)--> it is used target the just immediate child  */
+
+div > p{
+    color:crimson;
+}  
+
+/* descendent selector(space)--> select all the desecndent all the childern element (grandfather relation). */
+
+div p{
+    color: green;
+}
+

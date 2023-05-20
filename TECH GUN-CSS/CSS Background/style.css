@@ -1,0 +1,15 @@
+/* #bg{
+
+    background-color: red;
+}
+*/
+body{
+    background-color: skyblue;
+}
+ 
+  
+#bg{
+
+    background-image: url("./assets/laptop.jpg");
+
+}

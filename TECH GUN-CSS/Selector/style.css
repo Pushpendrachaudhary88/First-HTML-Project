@@ -1,0 +1,21 @@
+/* element selector-->(element) particular kisi element ko css provide karata hai. */
+p{
+    color:red;
+}
+
+/* id selector--> (# class_name) unique element ko css provide karat hai , it is unique  */
+ #p1{
+    color: green;
+ }
+ /* class selector--> (.class_name) in class selector we use provide the css to multiple elements. */
+ .green-text{
+    color:black;
+ }
+
+ #h{
+    font-size: 50px;
+ }
+
+ .underline-h{
+    text-decoration: underline;
+ }

@@ -1,0 +1,43 @@
+/* :link  --> Select the universal link. */
+
+a:link{
+    color:orange;
+}
+
+a:visited{
+    color:blue;
+}
+
+a:active{
+    color:green;
+}
+
+
+.btn{
+    background-color: rgb(111, 63, 111);
+    color: white;
+    font-size: 20px;
+    border:none;
+    border-radius: 8px;
+    padding:10px 15px;
+    font-weight: 800;
+}
+
+.btn:hover{
+    color: rgb(111, 61, 111);
+    border:1px solid   rgb(111, 61, 111);
+    background-color: white;
+    cursor: pointer;
+}
+
+/* focus (element:focus)--> it indicate the foucs on the particlar text */
+
+input:focus{
+    outline: 1px solid red;
+    border:none;
+    border-radius: 2px;
+    background-color: lightcyan;
+
+}
+
+
