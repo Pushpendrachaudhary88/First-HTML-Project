@@ -1,0 +1,40 @@
+/* universal selector(*)--> select all the element in the body tag. */
+*{
+    color:red;
+}
+
+
+/* tag select--> select all the element with the given tag. */
+
+h1{
+    color: yellow;
+}
+
+/* class selector-->(.class_name)  select all the element with the given classname. */
+
+.para{
+    color: skyblue;
+}
+
+/* id selector(#di_name)--> select the element with the given id . id is unique no two element have same id .para */
+
+#p2{
+    color: aqua;
+}
+
+/* grouping selector(,) --> used to the group element */
+
+h1,h2{
+    color: blueviolet;
+}
+
+/* p.para{
+    color:sienna ;
+} */
+
+/* element.class selector-->  select the specified element with the specified class */
+
+span.para{
+    color:chartreuse;
+}
+
